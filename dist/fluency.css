@@ -191,3 +191,15 @@ h1 em, h2 em { font-style: italic; font-weight: 400; }
 .button { font-weight: 600; letter-spacing: 0.01em; }
 .tiny, .eyebrow, .comp-status, .lang-switch button { letter-spacing: 0.1em; }
 .site-foot strong { font-family: var(--font-serif); font-weight: 500; font-size: 14px; color: var(--ink); }
+
+/* Trainer tile: the CV-as-a-game link */
+.cv-link { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; margin-top: 12px; padding: 12px 14px; text-decoration: none; color: var(--on-band); background: var(--band); border-radius: var(--radius-sm); transition: transform 160ms ease, box-shadow 160ms ease; }
+.cv-link:hover, .cv-link:focus-visible { transform: translateY(-1px); box-shadow: var(--shadow-lift); }
+.cv-link:hover .cv-arrow { transform: translate(2px, -2px); }
+.cv-glyph { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--accent); color: var(--on-accent); flex: none; }
+.cv-glyph svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.cv-text { display: grid; gap: 2px; min-width: 0; }
+.cv-text b { font-family: var(--font-serif); font-weight: 500; font-size: 16px; line-height: 1.2; }
+.cv-text small { font: 400 12px/1.4 var(--font-sans); color: var(--on-band-muted); }
+.cv-arrow { font: 500 15px/1 var(--font-mono); color: var(--accent); transition: transform 160ms ease; }
+@media print { .cv-link { background: none; color: var(--ink); border: 1px solid var(--line); } .cv-link .cv-text small { color: var(--ink-muted); } }

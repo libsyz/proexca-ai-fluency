@@ -273,6 +273,7 @@ export const trainer = {
       { eyebrow: "Trainer profile", text: "Miguel brings over 10 years of experience as a hands-on builder in tech. He has done the work of running teams, managing technical projects and scaling software in startups and large organizations." },
       { eyebrow: "", text: "Miguel has been a software development and data analytics teacher at Le Wagon, one of the largest edtechs in Europe, where he has taught technology to thousands of people. Miguel has also worked as a technical program manager for Microsoft at applied AI automating internal processes." },
     ],
+    link: { href: "https://mleojimenez.netlify.app/", label: "Play my CV", note: "A résumé built as a video game" },
     former: [
       { name: "Microsoft", src: "logos/colour/microsoft-mark.svg" },
       { name: "Le Wagon", src: "logos/colour/le-wagon.svg" },

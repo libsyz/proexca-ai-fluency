@@ -429,6 +429,7 @@ function renderTrainer() {
         <span class="avatar"><img src="${A}team/${slug}.jpg" alt="" loading="lazy" decoding="async" onerror="this.remove()" /><span>${esc(initials)}</span></span>
         ${p.tag ? `<span class="tag">${esc(p.tag)}</span>` : ""}<b>${esc(p.name)}</b><small>${esc(p.role)}</small>
         ${s.card.former ? `<ul class="former">${s.card.former.map((f) => `<li><i class="former-mark"><img src="${A}${f.src}" alt="" loading="lazy" /></i>Ex-${esc(f.name)}</li>`).join("")}</ul>` : ""}
+        ${s.card.link ? `<a class="cv-link" href="${s.card.link.href}" target="_blank" rel="noopener"><span class="cv-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="11" rx="4"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="18.5" cy="13.5" r="0.9" fill="currentColor" stroke="none"/></svg></span><span class="cv-text"><b>${esc(s.card.link.label)}</b><small>${esc(s.card.link.note)}</small></span><span class="cv-arrow" aria-hidden="true">↗</span></a>` : ""}
       </div>
       <article class="card trainer-card">
         <h3>${esc(s.card.title)}</h3>

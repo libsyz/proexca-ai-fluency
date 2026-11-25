@@ -272,6 +272,7 @@ export const trainer = {
       { eyebrow: "Perfil del formador", text: "Miguel aporta más de 10 años de experiencia como constructor en tecnología. Ha dirigido equipos, gestionado proyectos técnicos y escalado software en startups y grandes organizaciones." },
       { eyebrow: "", text: "Miguel ha sido profesor de desarrollo de software y análisis de datos en Le Wagon, una de las mayores edtechs de Europa, donde ha enseñado tecnología a miles de personas. También ha trabajado como technical program manager en Microsoft, en IA aplicada, automatizando procesos internos." },
     ],
+    link: { href: "https://mleojimenez.netlify.app/", label: "Juega mi CV", note: "Un currículum hecho videojuego" },
     former: [
       { name: "Microsoft", src: "logos/colour/microsoft-mark.svg" },
       { name: "Le Wagon", src: "logos/colour/le-wagon.svg" },
