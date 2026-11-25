@@ -1,0 +1,13 @@
+{
+  "name": "proexca-ai-fluency",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI fluency proposal for PROEXCA by Miguel Jimenez.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check dist/app.js && node --check dist/content.js && node --check dist/content.es.js"
+  },
+  "engines": { "node": ">=20" }
+}

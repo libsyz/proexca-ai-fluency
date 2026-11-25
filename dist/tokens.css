@@ -1,0 +1,56 @@
+/* Design tokens for the AI fluency proposal. Hand-written for this page; the variable names match style.css and proposal.css. */
+:root, [data-theme="light"] {
+  --surface: #faf7f1; /* Page background: warm paper. */
+  --surface-raised: #ffffff; /* Cards and panels. */
+  --surface-tint: #f1ebe0; /* Soft callouts and results panels. */
+  --surface-muted: #ebe4d7; /* Quiet fills. */
+  --band: #1f2b26; /* Full-bleed deep sections. Set on-band text on it. */
+  --line: #ddd5c6; /* Hairlines and dividers. Decorative only. */
+  --ink: #1c1b17; /* Headlines and body text on the light surfaces (16:1). */
+  --ink-muted: #5c594f; /* Secondary copy (6.4:1 on surface). */
+  --on-band: #f7f3ea; /* Text on band (13:1). */
+  --on-band-muted: #f7f3eabf; /* Body copy on band, 75%. */
+  --primary: #2d5c4e; /* Links, kickers, focus outlines and selected states (7.3:1 on surface). */
+  --on-primary: #f7f3ea; /* Text on a primary fill. */
+  --action: #1c1b17; /* Compact ink button fill. */
+  --on-action: #ffffff; /* Text on an action fill. */
+  --accent: #d98a3d; /* Amber. Main call to action; accents on band. Not text on light surfaces. */
+  --on-accent: #1c1b17; /* Text on an accent fill (8.4:1). */
+  --accent-strong: #8f5212; /* Amber for TEXT on light surfaces (5.6:1). */
+  --ring: #2d5c4e; /* Focus ring: 2px solid, 2px offset. */
+  --danger: #a13d2d;
+  --on-danger: #f7f3ea;
+  --shadow-note: 0 12px 50px 0 rgba(40, 32, 16, 0.09);
+}
+[data-theme="dark"] {
+  --surface: #171a18;
+  --surface-raised: #1e221f;
+  --surface-tint: #262b28;
+  --surface-muted: #222724;
+  --band: #0f1311;
+  --line: #ffffff29;
+  --ink: #f4f0e8;
+  --ink-muted: #f4f0e8bf;
+  --on-band: #f4f0e8;
+  --on-band-muted: #f4f0e8bf;
+  --primary: #8fc5b0;
+  --on-primary: #0f1311;
+  --action: #f4f0e8;
+  --on-action: #171a18;
+  --accent: #e4a262;
+  --on-accent: #0f1311;
+  --accent-strong: #e4a262;
+  --ring: #e4a262;
+  --danger: #e39078;
+  --on-danger: #0f1311;
+  --shadow-note: 0 12px 50px 0 rgba(0, 0, 0, 0.35);
+}
+:root {
+  --font-serif: Fraunces, "Iowan Old Style", Georgia, serif;
+  --font-sans: Manrope, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius-none: 0px;
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-pill: 999px;
+}
